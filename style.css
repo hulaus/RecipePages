@@ -1,5 +1,28 @@
+.TopHeading{
+    text-align: center;
+    background-color: darkolivegreen;
+}
+
+.topNav{
+    background-color: grey;
+}
+
+.navBar{
+    background-color: blanchedalmond;
+    padding:15px;
+}
+
+.navItems{
+    text-align: right;
+}
+
+.homeCardStack{
+    background-color: bisque;
+    padding: 40px;
+}
+
 .row{
-    margin:auto;
+    margin: 0 -5px;
 }
 
 row:after {
@@ -10,9 +33,9 @@ row:after {
 
 .column {
     display: inline-block;
-    width: 20%;
-    padding: 3px;
-    vertical-align: middle;
+    width: 24%;
+    padding: 7px;
+    align-items:center ;
   }
 
   @media screen and (max-width: 600px) {
@@ -29,12 +52,18 @@ row:after {
     text-align: center;
     transition: .3s;
     border-radius: 5px 5px 5px 5px;
+    background-color: white;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.minorDetails { 
-    display:inline-block;
+.ThankYou{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.bottomFooter{
+    background-color: cornsilk;
 }
