@@ -70,9 +70,27 @@ row:after {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.ThankYou{
-    text-align: center;
-    background-color: burlywood;
+.informationRow{
+    background-color: coral;
+    padding:150px;
+    display: flex;
+}
+
+.informationColumn{
+    flex: 50%;
+}
+
+.informationRow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .informationColumn{
+        width: 100%;
+    }
+    
 }
 
 .bottomFooter{
