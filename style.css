@@ -16,6 +16,17 @@
     text-align: right;
 }
 
+.IteminNav{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    margin:5px;
+}
+
+    
 .homeCardStack{
     background-color: bisque;
     padding: 40px;
